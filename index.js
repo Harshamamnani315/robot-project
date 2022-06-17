@@ -44,46 +44,46 @@ function computerSpeech(words){
     window.speechSynthesis.speak(speech);
 }
 function determineWords(speech,words){
-    if(words.includes("Hello, how are you?")){
+    if(words.includes("hello how are you")){
         speech.text = "i am fine , thank you!";
     }
-    else if(words.includes("What is your name?")){
+    else if(words.includes("what is your name")){
         speech.text = "My name is mr. robot";
     }
-    else if(words.includes("Open Facebook")){
+    else if(words.includes("open Facebook")){
         speech.text = "opening facebook for you";
         window.open("https://www.facebook.com/login.php");
     }
-    else if(words.includes("Open Google")){
+    else if(words.includes("open Google")){
         speech.text = "Opening google for you";
         window.open("https://www.google.com/");
     }
-    else if(words.includes("Open YouTube")){
+    else if(words.includes("open YouTube")){
         speech.text = "Opening YouTube for you";
         window.open("https://www.youtube.com/");
     }
-    else if(words.includes("Animal HD image")){
+    else if(words.includes("animal HD image")){
         speech.text = "Opening Animal images for you";
         window.open("https://unsplash.com/s/photos/animal");
     }
     
-    else if(words.includes("Restaurant website project")){
+    else if(words.includes("restaurant website project")){
         speech.text = "Opening Restaurant website project made by Harsha";
         window.open("https://resturantwebsite12.netlify.app/");
     }
 
     // https://responsivewebsite12.netlify.app
-    else if(words.includes("Responsive website project")){
+    else if(words.includes("responsive website project")){
         speech.text = "Opening Responsive website project made by Harsha";
         window.open("https://responsivewebsite12.netlify.app");
     }
 
-    else if(words.includes("Open library project")){
+    else if(words.includes("open library project")){
         speech.text = "Opening library website project made by Harsha";
         window.open("https://book-library-website.netlify.app/");
     }
     
-    else if(words.includes("Open calculator")){
+    else if(words.includes("open calculator")){
         speech.text = "Opening calculator project made by Harsha";
         window.open("https://calculatorweb12.netlify.app/");
     }
@@ -93,14 +93,14 @@ function determineWords(speech,words){
         window.open("https://cvproject12.netlify.app/");
     }
    // http://127.0.0.1:5501/newsproject/index.html
-   else if(words.includes("Open news")){
+   else if(words.includes("open news")){
         speech.text = "today news";
         window.open(" http://127.0.0.1:5501/newsproject/index.html");
     }
-    else if(words.includes("Play music")){
+    else if(words.includes("play music")){
         x.play();
     }
-    else if(words.includes("Stop music")){
+    else if(words.includes("stop music")){
         x.pause();
     }
     else{
